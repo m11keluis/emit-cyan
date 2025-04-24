@@ -1,0 +1,19 @@
+name: emit_cyan_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - xarray
+  - rioxarray
+  - rasterio
+  - geopandas
+  - matplotlib
+  - seaborn
+  - cartopy
+  - jupyterlab
+  - streamlit
+  - folium
+  - netCDF4
+  - earthaccess
+  - h5netcdf         # <- required for emit_xarray
+  - h5py             # <- dependency for h5netcdf
